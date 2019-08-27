@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 style="color: blueviolet">{{ title }}</h1>
+  <div class="joke-container jumbotron" style="margin-top: 35px">
+    <h2 class="joke" style="margin-bottom: 40px">{{ joke }}</h2>
+    <button (click)="getNextJoke()" class="btn btn-success btn-small">
+      Get Next Joke
+    </button>
+  </div>
+</div>
